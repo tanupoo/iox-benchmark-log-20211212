@@ -1,0 +1,535 @@
+## Parameers
+profile: 
+app_name: 
+cpu_units: 
+nb_tests: 20
+nb_threads: 3
+memory_size: 
+target: openssl
+exec_time: 
+log_file: ./benchmark.log
+max_prime: 10000
+## Sleep: 2021-12-01T13:19:48.6N
+131948
+## Start: 2021-12-01T13:19:48.6N
+Start test 1: 2021-12-01T13:19:48.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:12806:2048:10.00
++DTP:2048:public:rsa:10
++R1:12829:2048:10.00
++DTP:2048:public:rsa:10
++R1:12822:2048:10.00
++DTP:2048:public:rsa:10
++R2:404669:2048:10.01
++R2:404173:2048:10.01
++R2:402766:2048:10.01
+Forked child 2
+Got: +F2:2:2048:0.000779:0.000025 from 0
+Got: +F2:2:2048:0.000781:0.000025 from 1
+Got: +F2:2:2048:0.000780:0.000025 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000260s 0.000008s   3846.2 120000.0
+End   test 1: 2021-12-01T13:20:08.6N
+Start test 2: 2021-12-01T13:20:08.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:12749:2048:10.00
++DTP:2048:public:rsa:10
++R1:12750:2048:10.00
++DTP:2048:public:rsa:10
++R1:12748:2048:10.00
++DTP:2048:public:rsa:10
++R2:400676:2048:10.00
++R2:400993:2048:10.00
++R2:399448:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000784:0.000025 from 0
+Got: +F2:2:2048:0.000784:0.000025 from 1
+Got: +F2:2:2048:0.000784:0.000025 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000261s 0.000008s   3826.5 120000.0
+End   test 2: 2021-12-01T13:20:28.6N
+Start test 3: 2021-12-01T13:20:28.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:12433:2048:10.00
++DTP:2048:public:rsa:10
++R1:12424:2048:10.00
++DTP:2048:public:rsa:10
++R1:12424:2048:10.00
++DTP:2048:public:rsa:10
++R2:374443:2048:10.00
++R2:374733:2048:10.00
++R2:375276:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000804:0.000027 from 0
+Got: +F2:2:2048:0.000805:0.000027 from 1
+Got: +F2:2:2048:0.000805:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000268s 0.000009s   3728.3 111111.1
+End   test 3: 2021-12-01T13:20:48.6N
+Start test 4: 2021-12-01T13:20:48.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11979:2048:10.00
++DTP:2048:public:rsa:10
++R1:11980:2048:10.00
++DTP:2048:public:rsa:10
++R1:11986:2048:10.00
++DTP:2048:public:rsa:10
++R2:380422:2048:10.00
++R2:381525:2048:10.00
++R2:379848:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000834:0.000026 from 0
+Got: +F2:2:2048:0.000835:0.000026 from 1
+Got: +F2:2:2048:0.000835:0.000026 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000278s 0.000009s   3594.3 115384.6
+End   test 4: 2021-12-01T13:21:08.6N
+Start test 5: 2021-12-01T13:21:08.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11902:2048:10.00
++DTP:2048:public:rsa:10
++R1:11899:2048:10.00
++R1:11911:2048:10.00
++DTP:2048:public:rsa:10
++DTP:2048:public:rsa:10
++R2:376818:2048:10.00
++R2:377061:2048:10.00
++R2:376246:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000840:0.000027 from 0
+Got: +F2:2:2048:0.000840:0.000027 from 1
+Got: +F2:2:2048:0.000840:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000280s 0.000009s   3571.4 111111.1
+End   test 5: 2021-12-01T13:21:28.6N
+Start test 6: 2021-12-01T13:21:28.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:12053:2048:10.00
++DTP:2048:public:rsa:10
++R1:12049:2048:10.00
++R1:12049:2048:10.00
++DTP:2048:public:rsa:10
++DTP:2048:public:rsa:10
++R2:380827:2048:10.00
++R2:382108:2048:10.00
++R2:381628:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000830:0.000026 from 0
+Got: +F2:2:2048:0.000830:0.000026 from 1
+Got: +F2:2:2048:0.000830:0.000026 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000277s 0.000009s   3614.5 115384.6
+End   test 6: 2021-12-01T13:21:48.6N
+Start test 7: 2021-12-01T13:21:48.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:12095:2048:10.00
++DTP:2048:public:rsa:10
++R1:12099:2048:10.00
++DTP:2048:public:rsa:10
++R1:12098:2048:10.00
++DTP:2048:public:rsa:10
++R2:380768:2048:10.00
++R2:379966:2048:10.00
++R2:379364:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000827:0.000026 from 0
+Got: +F2:2:2048:0.000827:0.000026 from 1
+Got: +F2:2:2048:0.000827:0.000026 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000276s 0.000009s   3627.6 115384.6
+End   test 7: 2021-12-01T13:22:08.6N
+Start test 8: 2021-12-01T13:22:08.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11998:2048:10.00
++DTP:2048:public:rsa:10
++R1:11998:2048:10.00
++DTP:2048:public:rsa:10
++R1:11999:2048:10.00
++DTP:2048:public:rsa:10
++R2:384706:2048:10.00
++R2:384586:2048:10.00
++R2:384661:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000833:0.000026 from 0
+Got: +F2:2:2048:0.000833:0.000026 from 1
+Got: +F2:2:2048:0.000833:0.000026 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000278s 0.000009s   3601.4 115384.6
+End   test 8: 2021-12-01T13:22:28.6N
+Start test 9: 2021-12-01T13:22:28.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11992:2048:10.00
++DTP:2048:public:rsa:10
++R1:11997:2048:10.00
++DTP:2048:public:rsa:10
++R1:11992:2048:10.00
++DTP:2048:public:rsa:10
++R2:381690:2048:10.00
++R2:381796:2048:10.00
++R2:380607:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000834:0.000026 from 0
+Got: +F2:2:2048:0.000834:0.000026 from 1
+Got: +F2:2:2048:0.000834:0.000026 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000278s 0.000009s   3597.1 115384.6
+End   test 9: 2021-12-01T13:22:48.6N
+Start test 10: 2021-12-01T13:22:48.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11803:2048:10.00
++DTP:2048:public:rsa:10
++R1:11804:2048:10.00
++DTP:2048:public:rsa:10
++R1:11805:2048:10.00
++DTP:2048:public:rsa:10
++R2:375875:2048:10.00
++R2:376073:2048:10.00
++R2:376435:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000847:0.000027 from 0
+Got: +F2:2:2048:0.000847:0.000027 from 1
+Got: +F2:2:2048:0.000847:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000282s 0.000009s   3541.9 111111.1
+End   test 10: 2021-12-01T13:23:08.6N
+Start test 11: 2021-12-01T13:23:08.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11833:2048:10.00
++DTP:2048:public:rsa:10
++R1:11888:2048:10.00
++R1:11817:2048:10.00
++DTP:2048:public:rsa:10
++DTP:2048:public:rsa:10
++R2:371937:2048:10.00
++R2:369538:2048:10.00
++R2:371348:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000846:0.000027 from 0
+Got: +F2:2:2048:0.000845:0.000027 from 1
+Got: +F2:2:2048:0.000841:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000281s 0.000009s   3554.5 111111.1
+End   test 11: 2021-12-01T13:23:29.6N
+Start test 12: 2021-12-01T13:23:29.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:12019:2048:10.00
++DTP:2048:public:rsa:10
++R1:12020:2048:10.00
++DTP:2048:public:rsa:10
++R1:12023:2048:10.00
++DTP:2048:public:rsa:10
++R2:380922:2048:10.00
++R2:382703:2048:10.00
++R2:382385:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000832:0.000026 from 0
+Got: +F2:2:2048:0.000832:0.000026 from 1
+Got: +F2:2:2048:0.000832:0.000026 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000277s 0.000009s   3605.8 115384.6
+End   test 12: 2021-12-01T13:23:49.6N
+Start test 13: 2021-12-01T13:23:49.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11933:2048:10.00
++DTP:2048:public:rsa:10
++R1:11934:2048:10.00
++DTP:2048:public:rsa:10
++R1:11936:2048:10.00
++DTP:2048:public:rsa:10
++R2:370796:2048:10.00
++R2:371437:2048:10.00
++R2:370165:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000838:0.000027 from 0
+Got: +F2:2:2048:0.000838:0.000027 from 1
+Got: +F2:2:2048:0.000838:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000279s 0.000009s   3580.0 111111.1
+End   test 13: 2021-12-01T13:24:09.6N
+Start test 14: 2021-12-01T13:24:09.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:12007:2048:10.00
++DTP:2048:public:rsa:10
++R1:11998:2048:10.00
++DTP:2048:public:rsa:10
++R1:12004:2048:10.00
++DTP:2048:public:rsa:10
++R2:380475:2048:10.00
++R2:380813:2048:10.00
++R2:380088:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000833:0.000026 from 0
+Got: +F2:2:2048:0.000833:0.000026 from 1
+Got: +F2:2:2048:0.000833:0.000026 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000278s 0.000009s   3601.4 115384.6
+End   test 14: 2021-12-01T13:24:29.6N
+Start test 15: 2021-12-01T13:24:29.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11962:2048:10.00
++DTP:2048:public:rsa:10
++R1:11968:2048:10.00
++DTP:2048:public:rsa:10
++R1:11965:2048:10.01
++DTP:2048:public:rsa:10
++R2:370941:2048:10.00
++R2:371921:2048:10.01
++R2:370533:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000836:0.000027 from 0
+Got: +F2:2:2048:0.000837:0.000027 from 1
+Got: +F2:2:2048:0.000836:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000279s 0.000009s   3587.1 111111.1
+End   test 15: 2021-12-01T13:24:49.6N
+Start test 16: 2021-12-01T13:24:49.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11651:2048:10.00
++DTP:2048:public:rsa:10
++R1:11645:2048:10.00
++DTP:2048:public:rsa:10
++R1:11651:2048:10.00
++DTP:2048:public:rsa:10
++R2:370829:2048:10.00
++R2:370332:2048:10.00
++R2:362075:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000858:0.000028 from 0
+Got: +F2:2:2048:0.000859:0.000027 from 1
+Got: +F2:2:2048:0.000858:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000286s 0.000009s   3495.1 109788.4
+End   test 16: 2021-12-01T13:25:09.6N
+Start test 17: 2021-12-01T13:25:09.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11786:2048:10.00
++DTP:2048:public:rsa:10
++R1:11781:2048:10.01
++DTP:2048:public:rsa:10
++R1:11785:2048:10.01
++DTP:2048:public:rsa:10
++R2:371510:2048:10.00
++R2:370289:2048:10.00
++R2:370484:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000848:0.000027 from 0
+Got: +F2:2:2048:0.000850:0.000027 from 1
+Got: +F2:2:2048:0.000849:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000283s 0.000009s   3533.6 111111.1
+End   test 17: 2021-12-01T13:25:29.6N
+Start test 18: 2021-12-01T13:25:29.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11808:2048:10.00
++DTP:2048:public:rsa:10
++R1:11803:2048:10.00
++DTP:2048:public:rsa:10
++R1:11804:2048:10.00
++DTP:2048:public:rsa:10
++R2:362265:2048:10.00
++R2:371115:2048:10.00
++R2:370170:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000847:0.000027 from 0
+Got: +F2:2:2048:0.000847:0.000027 from 1
+Got: +F2:2:2048:0.000847:0.000028 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000282s 0.000009s   3541.9 109788.4
+End   test 18: 2021-12-01T13:25:49.6N
+Start test 19: 2021-12-01T13:25:49.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11674:2048:10.00
++DTP:2048:public:rsa:10
++R1:11650:2048:10.00
++DTP:2048:public:rsa:10
++R1:11689:2048:10.00
++DTP:2048:public:rsa:10
++R2:375004:2048:10.00
++R2:374930:2048:10.00
++R2:376327:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000858:0.000027 from 0
+Got: +F2:2:2048:0.000857:0.000027 from 1
+Got: +F2:2:2048:0.000856:0.000027 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000286s 0.000009s   3500.6 111111.1
+End   test 19: 2021-12-01T13:26:09.6N
+Start test 20: 2021-12-01T13:26:09.6N
+Forked child 0
+Forked child 1
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++DTP:2048:private:rsa:10
++R1:11621:2048:10.01
++DTP:2048:public:rsa:10
++R1:11618:2048:10.01
++DTP:2048:public:rsa:10
++R1:11626:2048:10.01
++DTP:2048:public:rsa:10
++R2:360110:2048:10.00
++R2:359220:2048:10.00
++R2:359782:2048:10.00
+Forked child 2
+Got: +F2:2:2048:0.000862:0.000028 from 0
+Got: +F2:2:2048:0.000861:0.000028 from 1
+Got: +F2:2:2048:0.000861:0.000028 from 2
+OpenSSL 1.0.2u  20 Dec 2019
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(ptr,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: cc -I. -I.. -I../include  -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000287s 0.000009s   3483.0 107142.9
+End   test 20: 2021-12-01T13:26:29.6N
+## End  : 2021-12-01T13:26:29.6N
